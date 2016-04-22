@@ -1,0 +1,20 @@
+Zhizhe Zhang
+Partner: Yudi Wu
+
+1.Rate
+  Zhizhe Zhang	Yudi Wu
+  5		5
+  5		5
+  5		5
+  5		5
+  5		5
+
+2. We compared each other's result for RTL and state diagram to make sure that it's right. Then, after coding by our own, we debuggd each other's codes and reate the test bench together.
+
+3. 3 times, we schduled the meeting that are available for both of us.
+
+4. I drawed the rtl and state diagrams and verified with yudi, did my own coding, and debugged his errors.
+
+5. He had a detail understanding of the test bench, and he fixed all my errors. 
+
+6. I didn't use testbench on Piazza.

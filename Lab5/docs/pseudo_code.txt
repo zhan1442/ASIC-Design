@@ -1,0 +1,31 @@
+IDLE: if (dr=0) goto idle ; wait until dr=1 or lc=1 
+LOAD_COEF1: if(lc = 1) store coef0
+LOADED1: disassert mod_wait and wait for next coef
+LOAD_COEF2: if(lc = 1) store coef1
+LOADED2: disassert mod_wait and wait for next coef
+LOAD_COEF3: if(lc = 1) store coef2
+LOADED3: disassert mod_wait and wait for next coef
+LOAD_COEF4: if(lc = 1) store coef3, go to IDLE
+store: if (data_ready=0) goto eidle
+    reg[5] = data; Store data in a register
+    err = 0                         ; reset error
+sort1: reg[1] = reg[2]              ; Reorder registers
+sort2: reg[2] = reg[3]              ; Reorder registers
+sort3: reg[3] = reg[4]              ; Reorder registers
+sort4: reg[4] = reg[5]              ; Reorder registers
+MUL1: reg[10] = reg[1]*reg[6]
+MUL2: reg[10] = reg[2]*reg[7]
+MUL3: reg[10] = reg[3]*reg[8]
+MUL4: reg[10] = reg[4]*reg[9]
+add1:    reg[0] = reg[0] + reg[10]    ; Add data, store result
+    if (V) goto eidle; On overflow, err condition
+add2:    reg[0] = reg[0] + reg[10]    ; Add data, store result
+    if (V) goto eidle; On overflow, err condition
+sub1:    reg[0] = reg[0] - reg[10]    ; Add data, store result
+    if (V) goto eidle; On overflow, err condition
+sub2:    reg[0] = reg[0] - reg[10]    ; Add data, store result
+    if (V) goto eidle; On overflow, err condition
+        goto idle
+EIDLE: err = 1
+    if (data_ready=1) goto store ; wait until data_ready=1
+    if (data_ready=0) goto eidle

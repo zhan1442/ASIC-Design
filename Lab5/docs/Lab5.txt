@@ -1,0 +1,12 @@
+Post Lab
+10.1: 
+In order to correctly operate:
+2 cycles minimum needed for data_ready to hold, 
+3 cycles minimun needed for data to be still valid.
+
+10.2:
+The first figure filtered out all the horizontal lines, the second one filtered out all the vertical lines and the third one filtered out the lines that are not vertial or horizontal. It make sense, because it is what a filter do. The filter can filter out different pattern by setting the different coefficients as well as different data input order.
+
+The general form of the function is like $func(...,......) for verilog file IO. 
+
+The different format specifier like %c, %d, %nd, %s ... is also available for the file IO in verilog test bench.

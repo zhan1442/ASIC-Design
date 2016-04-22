@@ -1,0 +1,190 @@
+
+
+
+
+
+Tracing Clock clk
+
+****** Clock Tree (clk) Structure
+Nr. Subtrees                   : 2
+Nr. Sinks                      : 135
+Nr.          Rising  Sync Pins : 135
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFPOSX1 (CLK)                          64
+DFFSR (CLK)                             71
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+PADINC (YPAD)                           1
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk) Cell: (EMPTY) Net: (clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 1
+*DEPTH 1 Input_Pin: (U7/YPAD) Output_Pin: (U7/DI) Cell: (PADINC) Net: (nclk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 135
+          Nr. of     Rising  Sync Pins  : 135
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock clk
+*DEPTH 0: clk
+ *DEPTH 1: U7(YPAD->DI)
+  (Sync)I0/LD/OCTRL/d_minus_reg_reg/CLK
+  (Sync)I0/LD/OCTRL/d_plus_reg_reg/CLK
+  (Sync)I0/LD/ENC/last_bit_reg/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[7]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[6]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[5]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[4]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[3]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[2]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[1]/CLK
+  (Sync)I0/LD/T_SR_0/curr_val_reg[0]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[7]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[6]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[5]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[4]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[3]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[2]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[1]/CLK
+  (Sync)I0/LD/T_SR_1/curr_val_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[0][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[1][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[2][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[3][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[4][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[5][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[6][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][7]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][6]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][5]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][4]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UFIFORAM/fiforeg_reg[7][0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r1_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r1_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r1_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r1_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r2_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r2_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r2_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/wrptr_r2_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/full_flag_r_reg/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/waddr_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/waddr_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/waddr_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/binary_r_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/binary_r_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/binary_r_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/binary_r_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/gray_r_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/gray_r_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/gray_r_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/UWFC/WPU1/gray_r_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r1_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r1_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r1_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r1_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r2_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r2_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r2_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/rwptr_r2_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/empty_flag_r_reg/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/raddr_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/raddr_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/raddr_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/binary_r_reg[0]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/binary_r_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/binary_r_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/binary_r_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/gray_r_reg[3]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/gray_r_reg[2]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/gray_r_reg[1]/CLK
+  (Sync)I0/LD/T_FIFO/IP_FIFO/URFC/RPU1/gray_r_reg[0]/CLK
+  (Sync)I0/LD/TIM/curr_state_reg[0]/CLK
+  (Sync)I0/LD/TIM/curr_state_reg[1]/CLK
+  (Sync)I0/LD/TIM/clk_cnt_reg[0]/CLK
+  (Sync)I0/LD/TIM/clk_cnt_reg[1]/CLK
+  (Sync)I0/LD/TIM/clk_cnt_reg[2]/CLK
+  (Sync)I0/LD/CTRL/bit_cnt_reg[0]/CLK
+  (Sync)I0/LD/CTRL/bit_cnt_reg[1]/CLK
+  (Sync)I0/LD/CTRL/bit_cnt_reg[2]/CLK
+  (Sync)I0/LD/CTRL/curr_state_reg[0]/CLK
+  (Sync)I0/LD/CTRL/curr_state_reg[2]/CLK
+  (Sync)I0/LD/CTRL/curr_state_reg[1]/CLK
+  (Sync)I0/LD/CTRL/curr_state_reg[3]/CLK

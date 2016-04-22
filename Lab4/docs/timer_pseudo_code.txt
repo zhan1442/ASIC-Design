@@ -1,0 +1,7 @@
+if enable_timer:
+	enable flex_counter10
+	if (roll_over_flag10 == 1)
+		shift_strobe = 1
+		inc flex_counter_9
+	if(roll_over_flag9 == 1)
+		packet_done = 1
