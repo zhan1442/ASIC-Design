@@ -20,29 +20,49 @@ Assessment Method for Learning Objectives: Outcomes i) iv) are demonstrated by c
 Lecture Outline:
 Week(s) 	Lecture Topics
 1-2 	Combinational logic design
+
 3-4 	Sequential logic design
+
 5-8 	Register Transfer Level (RTL) design of systems
+
 9 	Alternatives to ASIC design, programmable logic implementation technologies
+
 10-13 	No lecture
+
 14 	Preparation for final presentations and demonstrations
 
 Lab Outline:
 Lab 	Activity
 1 	Course overview, HDL synthesis and simulation design flow
+
 2 	Combinational logic design - schematic and HDL
+
 3 	Use of test benches, timing constraints, optimization trade-offs
+
 4 	Sequential logic functions, HDL based state machine design
+
 4-7 	System level design, writing ASIC specifications
+
 9-15 	Final project
+
 15 	Student presentations and final reports
 
+
 Engineering Design Content:
+
 Establishment of Objectives and Criteria
+
 Synthesis
+
 Analysis
+
 Testing
+
 Evaluation
 
 Engineering Design Consideration(s):
+
 Economic
+
 Manufacturability
+
